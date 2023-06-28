@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>База</title>
+    <link rel="icon" href="img/hat.ico" type="image/x-icon" />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <form id="input-form">
+      <input type="button" onclick="fu()" value="ввести" id="sortt" />
+      <input type="text" placeholder="Имя" id="txtname" class="inp" />
+      <input type="text" placeholder="Фамилия" id="txtsecname" class="inp" />
+      <input type="text" placeholder="Возраст" id="txtage" class="inp" />
+    </form>
+    <div id="table-main">
+      <table id="ifi">
+        <tr>
+          <th onclick="pryat1()">Имя</th>
+          <th onclick="pryat2()">Фамилия</th>
+          <th onclick="pryat3()">Возраст</th>
+        </tr>
+        <tr id="0">
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr id="1">
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr id="2">
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr id="3">
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr id="4">
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr id="5">
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr id="6">
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr id="7">
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr id="8">
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr id="9">
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </table>
+      <div id="d">
+        <input type="button" value="назад" onclick="fu2()" class="dvs" />
+        <h3 id="num">1</h3>
+        <input type="button" value="дальше" onclick="fu1()" class="dvs" />
+      </div>
+    </div>
+    <form id="main-form">
+      <input type="button" onclick="sort()" value="сортировать" id="sortt" />
+      <div class="input_for">
+        <input type="radio" name="state" id="radgo" value="1" />
+        <label for="radgo">по убыванию</label>
+      </div>
+
+      <div class="input_for">
+        <input type="radio" name="state" id="radstand" value="2" />
+        <label for="radstand">по возрастанию</label>
+      </div>
+    </form>
+
+    <div id="buttn"></div>
+    <script src="main.js"></script>
+
+    <footer>
+      <span class="left">&copy; 2023</span>
+      <span class="right">
+        <a href="https://vk.com/danya_melok"
+          ><img
+            src="img/VK.png"
+            alt="Группа ВКонтакте"
+            title="Группа ВКонтакте" /></a
+      ></span>
+    </footer>
+  </body>
+</html>
